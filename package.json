@@ -1,0 +1,28 @@
+{
+  "name": "technotes",
+  "version": "1.0.0",
+  "description": "TechNotes MERN Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norman02/TechNotes.git"
+  },
+  "author": "J norman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norman02/TechNotes/issues"
+  },
+  "homepage": "https://github.com/norman02/TechNotes#readme",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
