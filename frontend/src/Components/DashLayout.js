@@ -5,9 +5,11 @@ import DashFooter from "./DashFooter";
 function DashLayout() {
   return (
     <>
-    <DashHeader/>
-      <div className="dash-container"></div>
+      <DashHeader />
+      <div className="dash-container">
       <Outlet />
+      </div>
+      <DashFooter />
     </>
   );
 }
